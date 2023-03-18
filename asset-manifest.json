@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/migrainecaster/static/css/main.a47e632e.css",
-    "main.js": "/migrainecaster/static/js/main.b7e22da5.js",
+    "main.js": "/migrainecaster/static/js/main.1150fec3.js",
     "static/js/787.7b63f85e.chunk.js": "/migrainecaster/static/js/787.7b63f85e.chunk.js",
     "index.html": "/migrainecaster/index.html",
     "main.a47e632e.css.map": "/migrainecaster/static/css/main.a47e632e.css.map",
-    "main.b7e22da5.js.map": "/migrainecaster/static/js/main.b7e22da5.js.map",
+    "main.1150fec3.js.map": "/migrainecaster/static/js/main.1150fec3.js.map",
     "787.7b63f85e.chunk.js.map": "/migrainecaster/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a47e632e.css",
-    "static/js/main.b7e22da5.js"
+    "static/js/main.1150fec3.js"
   ]
 }
