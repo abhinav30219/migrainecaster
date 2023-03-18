@@ -24,11 +24,11 @@ const DatePickerComponent = () => {
       alert("Please select dates before clicking the 'Predict Headache Dates' button.");
       return;
     }
-  
+    setMessage("Generating predictions! Feel free to take a tea break while the algorithms run their magic...");
     const formattedDates = selectedDates.map((date) => format(date, 'yyyy-MM-dd'));
     try {
-      setMessage("Generating predictions! Feel free to take a tea break while the algorithms run their magic...");
       const predictedDates = await predict(formattedDates);
+      setMessage('')
       if (predictedDates.length === 0) {
         setMessage("It seems like you are not likely to have weather-induced headaches in the following month. This result could have been caused by a lack of sufficient data for the algorithm to make proper prediction or because you aren't sensitive to weather induced migraines. Furthermore, only over a third-of-people experience weather-induced migraines, so it is possible that weather changes don't affect your migraine frequencies. You can read more about the relationship between weather and migraine at https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.14482");
       } else {
