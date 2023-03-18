@@ -3,8 +3,8 @@ import Papa from "papaparse";
 
 const eta = 0.000000001;
 const training_steps = 1000000;
-const TRAINFILE = "${process.env.PUBLIC_URL}/weather_train3.csv";
-const PREDICT_FILE = "${process.env.PUBLIC_URL}/weather_predict3.csv";
+const TRAINFILE = process.env.PUBLIC_URL + "/weather-train3.csv";
+const PREDICT_FILE = process.env.PUBLIC_URL + "/weather-predict3.csv";
 
 function loadData(file) {
   return new Promise((resolve) => {
